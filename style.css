@@ -1,0 +1,76 @@
+:root {
+  --main-color: blue;
+  --main-color1: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background: url(img/bg_bggenerator_com.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+.navbar-brand img {
+  width: 10vw;
+}
+
+a.nav-link:hover {
+  color: var(--main-color1);
+}
+
+.section-title {
+  border-bottom: 0.7rem solid var(--main-color);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.skills-list i {
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+/* .projects {
+  background: linear-gradient(
+    90.14deg,
+    #28c4da 0.14%,
+    #cadccf 99.65%,
+    rgba(255, 255, 255, 0.605529) 99.87%,
+    rgba(219, 136, 33, 0.55) 99.88%
+  );
+} */
+
+#go-up {
+  width: 80x;
+  width: 80px;
+  background: var(--main-color);
+  font-size: 4rem;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  box-shadow: -4px 4px 4ppx rgba(221, 221, 221, 0.5);
+}
+
+h2 {
+  border-bottom: 0.7rem solid var(--main-color);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
